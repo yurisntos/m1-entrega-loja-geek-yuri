@@ -1,0 +1,125 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuButton{
+	width: 150px;
+	height: 30px;
+   
+    background-color:#0A99FE;
+    border: none;
+    border-radius: 10px;
+}
+.menuButton:hover{
+    background-color: #0a98fe5c;
+    color: white;
+}
+.paintingsSection{
+	margin: 20px;
+}
+.paintingsTittle{
+	color: #1B1B1B;
+	font-size: 20px;
+	font-style: medium;
+	margin-left: 106px;
+    padding-bottom: 22px;
+
+}
+.cardPaintings{
+    display: flex;
+    justify-content: space-around;
+
+}
+.figuresSection{
+	margin: 20px;
+
+}
+.actionTittle{
+	color: #1B1B1B;
+	font-size: 20px;
+	font-style: medium;
+	margin-left: 106px;
+    padding-bottom: 22px;
+}
+
+.cardFigures{
+	display: flex;
+    justify-content: space-around;
+}
+
+li{
+    background-color: lightgray;
+    width: 207px;
+    height: 275px;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 15px;
+} 
+
+.imgItem{
+	width: 206px;
+	height: 200px;
+	border-radius: 15px;
+}
+
+.nomeItem{
+	color: #1B1B1B;
+ 	font-size: 20px;
+	padding: 10px;
+
+}
+
+.precoItem{
+	color:#868383;
+	font-size: 16px;
+
+}
